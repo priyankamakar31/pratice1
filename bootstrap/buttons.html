@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Buttons</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+	<style type="text/css">
+		.btn-outline{
+			border: 1px solid cyan;
+			color: red;
+		}
+		.btn-outline:hover{
+			background-color: cyan;
+			border: 1px solid cyan;
+			color: yellow;
+		}
+	</style>
+</head>
+<body>
+<div class="container-fluid">
+<div class="row">
+	<div class="col-md-2">
+		<div class="d-grid gap-2">
+  <button class="btn btn-primary" type="button">Button</button>
+</div>
+	</div>
+	<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item active" aria-current="page">Home</li>
+  </ol>
+</nav>
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Library</li>
+  </ol>
+</nav>
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#">Home</a></li>
+    <li class="breadcrumb-item"><a href="#">Library</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Data</li>
+  </ol>
+</nav>
+</div>
+<button type="button" class="btn" style="background-color: red; color: yellow;">
+  Notifications <span class="badge text" style="background-color:green; color: pink;">4</span>
+</button><br>
+<button type="button" class="btn  position-relative mt-2" style="background-color:yellow;
+color: red;">
+  Inbox
+  <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill " style="background-color:blue; color:magenta;">
+    99+
+    <span class="visually-hidden">unread messages</span>
+  </span>
+</button><br>
+<button type="button" class="btn mt-2" style="background-color:magenta; color:white;">ok</button>
+<a class="btn btn-primary" href="gridsystem.html" role="button">Link</a><br>
+<button type="button" class="btn btn-outline">Success</button>
+<button type="button" class="btn btn-sm disabled" style="background-color:purple;
+color: cyan;">Small button</button>
+<button type="button" class="btn btn-lg" style="background-color: skyblue; color:burlywood;">Large button</button>
+<button type="button" class="btn btn-primary" data-bs-toggle="button">Toggle button</button>
+<button type="button" class="btn btn-primary active" data-bs-toggle="button" aria-pressed="true">Active toggle button</button>
+<button type="button" class="btn btn-primary" disabled data-bs-toggle="button">Disabled toggle button</button><br>
+<div class="btn-group" role="group" aria-label="Basic mixed styles example">
+  <button type="button" class="btn" style="background-color:mediumseagreen; color:bisque;">Left</button>
+  <button type="button" class="btn" style="background-color: yellow; color:burlywood;">Middle</button>
+  <button type="button" class="btn" style="background-color:royalblue; color:brown;">Right</button>
+</div>
+<div class="btn-group" role="group" aria-label="Basic outlined example">
+  <button type="button" class="btn btn-outline" style="border: 3px dotted sandybrown;">Left</button>
+  <button type="button" class="btn btn-outline"  style="border: 3px dotted sandybrown;">Middle</button>
+  <button type="button" class="btn btn-outline"  style="border: 3px dotted sandybrown;">Right</button>
+</div><br>
+<div class="btn-group-vertical" role="group" aria-label="Vertical radio toggle button group">
+  <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio1" autocomplete="off" checked>
+  <label class="btn btn-outline-danger" for="vbtn-radio1">Radio 1</label>
+  <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio2" autocomplete="off">
+  <label class="btn btn-outline-danger" for="vbtn-radio2">Radio 2</label>
+  <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio3" autocomplete="off">
+  <label class="btn btn-outline-danger" for="vbtn-radio3">Radio 3</label>
+</div>
+<div class="card" style="width: 18rem;">
+  <img src="../img/specs22.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+
+</div>
+
+</body>
+</html> 

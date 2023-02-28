@@ -1,0 +1,156 @@
+body{
+	width: 98%;
+	height: 700px;
+	background-image: url("https://cdn.pixabay.com/photo/2016/05/05/02/37/sunset-1373171__480.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.box1{
+	width: 30%;
+	height: 600px;
+	background-image: linear-gradient(to right bottom, peachpuff,lightblue,lavenderblush,lightpink);
+	margin: 5% 0% 0% 3%;
+	float: left;
+
+}
+  .image1
+{
+	width:90%;
+	height:250px;
+	background-image: url("https://www.salonsdirect.com/blog/wp-content/uploads/2021/09/Trending-Autumn-Nail-Colours-You-Need-in-Your-Nail-Kit.jpg");
+background-size: cover;
+			background-position: center;
+background-repeat: no-repeat;
+margin: 5% 0% 0% 5%;
+float: left;
+}
+.image1:hover{
+	width:90%;
+	height:250px;
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTS7eRbcyddMXfylw9kyqSNdpf6MVL2YWrr4A&usqp=CAU");
+background-size: cover;
+			background-position: center;
+background-repeat: no-repeat;
+margin: 5% 0% 0% 5%;
+float: left;
+
+}
+.p1{
+	width: 100%;
+	font-size: 90%;
+	color: darkmagenta;
+	font-family: cursive;
+	padding: 0px 0px 0px 4px;
+}
+.hd1{
+	color: darkblue;
+}
+.hd1:hover{
+	color: darkred;
+}
+.b1{
+	color: darkblue;
+	background-color: lightblue;
+	margin: 0% 0% 0% 42%;
+	border-style: groove;
+	border-color: darkcyan;
+}
+.box2{
+    width: 30%;
+	height: 600px;
+	background-image: linear-gradient(to right bottom,peachpuff,palevioletred,lightpink,peachpuff);
+	margin: 5% 0% 0% 3%;
+	float: left;
+}
+.image2
+{
+	width:90%;
+	height:250px;
+	background-image: url("https://5.imimg.com/data5/SELLER/Default/2022/6/XP/VE/JU/123180597/k-hers-by-bellafilles-radiant-day-earrings-trendy-korean-imitation-jewellery-for-women-girls-500x500.jpg");
+background-size: cover;
+			background-position: center;
+background-repeat: no-repeat;
+margin: 5% 0% 0% 5%;
+float: left;
+}
+.image2:hover{
+	width:90%;
+	height:250px;
+	background-image: url("https://5.imimg.com/data5/SELLER/Default/2022/9/UB/AR/DH/113400404/vembley-korean-fashion-love-bow-pearl-stud-earrings-for-women-and-girls-2-pcs-set-1000x1000.jpg");
+background-size: cover;
+			background-position: center;
+background-repeat: no-repeat;
+margin: 5% 0% 0% 5%;
+float: left;
+
+}
+.p2{
+	width: 100%;
+	font-size: 90%;
+	color: darkgreen;
+	font-family: cursive;
+	padding: 0px 0px 0px 4px;
+}
+.hd2{
+	color: darkmagenta;
+}
+.hd2:hover{
+	color: darkseagreen;
+}
+.b2{
+	color: lightcoral;
+	background-color: darkmagenta;
+	margin: 0% 0% 0% 42%;
+	border-style: groove;
+	border-color: papayawhip;
+}
+.box3{
+    width: 30%;
+	height: 600px;
+	background-image: linear-gradient(to right bottom ,lightpink,lavender,lavenderblush,lightpink);
+	margin: 5% 0% 0% 3%;
+	float: left;
+}
+
+  .image3
+{
+	width:90%;
+	height:250px;
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTln4HmhMNYAY2OPzwVQTt7-p7pM571lyWc-A&usqp=CAU");
+background-size: cover;
+			background-position: center;
+background-repeat: no-repeat;
+margin: 5% 0% 0% 5%;
+float: left;
+}
+.image3:hover{
+	width:90%;
+	height:250px;
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ16T0hj9BFmxM1HFY7i1_8VgXrUJNTfdZGa7BJabdXpn0-AFePNzB3aB0rRmc6kzkRkTs&usqp=CAU");
+background-size: cover;
+			background-position: center;
+background-repeat: no-repeat;
+margin: 5% 0% 0% 5%;
+float: left;
+
+}
+.p3{
+	width: 100%;
+	font-size: 90%;
+	color: darkgoldenrod;
+	font-family: cursive;
+	padding: 0px 0px 0px 4px;
+}
+.hd3{
+	color:darkviolet;
+}
+.hd3:hover{
+	color:darkseagreen;
+}
+.b3{
+	color: darkorchid;
+	background-color: lightpink;
+	margin: 0% 0% 0% 42%;
+	border-style: groove;
+	border-color: darkcyan;
+}
