@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>keyframe</title>
+	<style>
+		div {
+		  width: 100px;
+		  height: 100px;
+		  background: red;
+		  position: relative;
+		  animation: mymove 5s infinite;
+		}
+
+		@keyframes mymove {
+		  0%   {top: 0px; left: 0px; background: red;}
+		  25%  {top: 0px; left: 1000px; background: blue;}
+		  50%  {top: 400px; left: 1000px; background: yellow;}
+		  75%  {top: 400px; left: 0px; background: green;}
+		  100% {top: 0px; left: 0px; background: red;}
+		}
+
+		@keyframes moveright {
+			from {
+				left: 0px; 
+			}
+			to {
+				left: 200px;
+			}
+		}
+		@keyframes movedown {
+			from {
+				top: 0px; 
+			}
+			to {
+				top: 200px;
+			}	
+		}
+	</style>
+</head>
+<body>
+	<div></div>
+</body>
+</html>
